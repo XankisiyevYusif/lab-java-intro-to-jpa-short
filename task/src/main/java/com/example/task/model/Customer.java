@@ -18,7 +18,7 @@ public class Customer {
 
     private Integer totalCustomerMileage;
 
-    public Customer() {
+    public Customer(String johnDoe, CustomerStatus gold, int totalCustomerMileage) {
     }
 
     public Customer(Integer customerId, String customerName, CustomerStatus customerStatus, Integer totalCustomerMileage) {
